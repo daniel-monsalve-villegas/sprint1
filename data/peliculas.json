@@ -1,0 +1,36 @@
+{
+  "movies": [
+    {
+      "title": "A Metamorfose dos Pássaros",
+      "genre": "Documentary, Biography, Drama",
+      "date": "2020",
+      "duration": "101min",
+      "overview": "The passing away of their mothers makes Catarina and her own father meet in an emotional place that is different from the one most fathers and daughters know.",
+      "id": "1"
+    },
+    {
+      "title": "A Fish Swiming Upside Down",
+      "genre": "Drama",
+      "date": "2020",
+      "duration": "10emin",
+      "overview": "Andrea, a woman without a past, is the object of both Philipp's and his son's desire. A love triangle filled with expectations, longing and fears leaves open the speculation of who knows what about whom. A love triangle on the border of conventional moral concepts: Andrea, in her early 40s, is a woman without a past - playful, direct, light, energetic, honest, unpredictable. She and 50-year-old Philipp have been together for some time and decide to move in together. Andrea's presence should fill the gap for the deceased Hanna, wife and mother of the house.19-year-old Martin is Philip's son and loves and desires Andrea too and his life is limited to his own four walls, jogging in the woods and meadows and the pool in the front garden. He gives both of them the cold shoulder at first. But she brings a new lightness into the large, empty family house and when she also turns to Martin, she becomes a projection surface for both men. For one summer, their longings seem to be fulfilled in a love triangle in which it is unspoken who knows what from whom. But expectations grow, and while Philipp withdraws into passivity, Martin develops ownership claims. The three of them become more and more destructive of each other - and ultimately become bearers of a common guilt. A reduced, well-composed arrangement of imperfect, deeply human figures fighting against inner emptiness..",
+      "id": "2"
+    },
+    {
+      "title": "A Fish Swimming Upside Down",
+      "genre": "Drama",
+      "date": "2020",
+      "duration": "103min",
+      "overview": "Andrea, a woman without a past, is the object of both Philipp's and his son's desire. A love triangle filled with expectations, longing and fears leaves open the speculation of who knows what about whom. A love triangle on the border of conventional moral concepts: Andrea, in her early 40s, is a woman without a past - playful, direct, light, energetic, honest, unpredictable. She and 50-year-old Philipp have been together for some time and decide to move in together. Andrea's presence should fill the gap for the deceased Hanna, wife and mother of the house.19-year-old Martin is Philip's son and loves and desires Andrea too and his life is limited to his own four walls, jogging in the woods and meadows and the pool in the front garden. He gives both of them the cold shoulder at first. But she brings a new lightness into the large, empty family house and when she also turns to Martin, she becomes a projection surface for both men. For one summer, their longings seem to be fulfilled in a love triangle in which it is unspoken who knows what from whom. But expectations grow, and while Philipp withdraws into passivity, Martin develops ownership claims. The three of them become more and more destructive of each other - and ultimately become bearers of a common guilt. A reduced, well-composed arrangement of imperfect, deeply human figures fighting against inner emptiness.",
+      "id": "Ezdc-eP"
+    },
+    {
+      "title": "Eternals",
+      "genre": "Action, Adventure",
+      "date": "2021",
+      "duration": "193min",
+      "overview": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations.",
+      "id": "2PjqQkk"
+    }
+  ]
+}

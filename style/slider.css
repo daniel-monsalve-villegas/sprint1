@@ -1,0 +1,99 @@
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-slider {
+  position: relative;
+  width: 95%;
+  max-width: 120em;
+}
+
+.img-slider .slide {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  clip-path: circle(0% at 0% 50%)
+}
+
+.img-slider .slide.active {
+  clip-path: circle(150% at 0% 50%)
+}
+
+.img-slider .slide .image {
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
+
+.img-slider .slide .button {
+  position: absolute;
+  top: 80%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.img-slider .slide .buttonWatch {
+  border-radius: 5px;
+  height: 2em;
+  font-size: 20px;
+  margin-left: 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.img-slider .slide .buttonWatch:hover {
+  transform: scale(1.1);
+  clip-path: circle(100% at 50% 50%);
+  transition: all .3s ease-in;
+}
+
+#now {
+  background-color: #FED941;
+  border: none;
+  color: black;
+}
+
+#later {
+border: 1px solid #FED941;
+color: #FED941;
+}
+
+#play {
+  background-color: #FED941;
+  margin-right: 1em;
+}
+
+#plus {
+  margin-right: 1em;
+}
+
+.img-slider .navigation {
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  margin-top: 19.5em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.img-slider .navigation .btn {
+  background: rgba(255, 255, 255, 0.7);
+  width: 1em;
+  height: 1em;
+  margin: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.img-slider .navigation .btn:hover,
+.img-slider .navigation .btn.active {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(1.1);
+}

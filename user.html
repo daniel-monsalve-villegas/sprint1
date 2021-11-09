@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/survey.css">
+  <link rel="stylesheet" href="./style/navbar.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+  <title>Block Master</title>
+</head>
+
+<body>
+  <header>
+    <a href="#" class="crud"><img src="./images/blocklogo.png" alt="logo" id="logo"></a>
+    <nav>
+      <ul class="nav_links">
+        <li><a href="index.html">Todas</a></li>
+        <li><a href="masvalorada.html">Más Valoradas</a></li>
+        <li><a href="menosvalorada.html">Menos Valoradas</a></li>
+      </ul>
+    </nav>
+    <form id="searcher">
+      <input id="search" type="text" name="search" placeholder="Busca tu película favorita">
+      <button type="submit" name="button">
+        <i class="fas fa-search"></i>
+      </button>
+    </form>
+  </header>
+
+  <main id="survey-container">
+    <form id="survey">
+      <div class="input">
+        <label for="name" class="form-label">Nombre</label>
+        <input type="text" id="input-name" name="name">
+      </div>
+      <div class="input">
+        <label for="lastname" class="form-label">Apellido</label>
+        <input type="text" id="input-lastname" name="lastname">
+      </div>
+      <div class="input">
+        <label for="email" class="form-label">Correo</label>
+        <input type="text" id="input-email" name="email">
+      </div>
+      <div class="input">
+        <label for="password" class="form-label">Contraseña</label>
+        <input type="password" id="input-password" name="password">
+      </div>
+      <div class="input">
+        <label for="id" class="form-label">Id</label>
+        <input type="text" id="id" name="id" readonly>
+      </div>
+      <div class="change">
+        <button class="survey-btn" id="send" type="submit">Enviar</button>
+        <button class="survey-btn" id="search-user" type="button">Buscar</button>
+        <button class="survey-btn" id="edit" type="button">Editar</button>
+      </div>
+    </form>
+  </main>
+
+  <script src="./script/user.js"></script>
+</body>
+
+</html>

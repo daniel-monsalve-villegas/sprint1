@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/navbar.css">
+  <link rel="stylesheet" href="./style/slider.css">
+  <link rel="stylesheet" href="./style/movies.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+  <title>Block Master</title>
+</head>
+
+<body>
+  <header>
+    <img src="./images/blocklogo.png" alt="logo" id="logo">
+    <nav>
+      <ul class="nav_links">
+        <li><a href="index.html">Todas</a></li>
+        <li><a href="masvalorada.html">Más Valoradas</a></li>
+        <li><a href="menosvalorada.html">Menos Valoradas</a></li>
+      </ul>
+    </nav>
+    <form id="searcher">
+      <input id="search" type="text" name="search" placeholder="Busca tu película favorita">
+      <button type="submit" name="button">
+        <i class="fas fa-search"></i>
+      </button>
+    </form>
+  </header>
+
+  <main id="main">
+    <div class="img-slider">
+      <div class="slide active">
+        <img class="image" src="https://www.freejpg.com.ar/asset/900/22/2265/F100007513.jpg" alt="hoja">
+        <div class="button">
+          <button type="button" name="wath_now" class="buttonWatch" id="now"><i id="play" class="fas fa-play"></i>ver ahora</button>
+          <button type="button" name="watch_later" class="buttonWatch" id="later"><i id="plus" class="fas fa-plus"></i>ver después</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img class="image" src="https://www.freejpg.com.ar/image-900/f5/f5c2/F100011137-humo_verde.jpg" alt="humo">
+        <div class="button">
+          <button type="button" name="wath_now" class="buttonWatch" id="now"><i id="play" class="fas fa-play"></i>ver ahora</button>
+          <button type="button" name="watch_later" class="buttonWatch" id="later"><i id="plus" class="fas fa-plus"></i>ver después</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img class="image" src="https://www.freejpg.com.ar/image-900/1d/1de8/F100007892-chispas.jpg" alt="chispa">
+        <div class="button">
+          <button type="button" name="wath_now" class="buttonWatch" id="now"><i id="play" class="fas fa-play"></i>ver ahora</button>
+          <button type="button" name="watch_later" class="buttonWatch" id="later"><i id="plus" class="fas fa-plus"></i>ver después</button>
+        </div>
+      </div>
+
+      <div class="navigation">
+          <div class="btn active"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+      </div>
+      <h1 id="capital">Películas menos valoradas</h1>
+    </div>
+
+    <section id="movies">
+
+    </section>
+  </main>
+
+  <script src="./script/menos.js"></script>
+  <script src="./script/slider.js"></script>
+</body>
+
+</html>

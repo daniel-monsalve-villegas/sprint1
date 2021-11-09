@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/surveymovie.css">
+  <link rel="stylesheet" href="./style/navbar.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+  <title>Block Master</title>
+</head>
+
+<body>
+  <header>
+    <a href="#" class="crud"><img src="./images/blocklogo.png" alt="logo" id="logo"></a>
+    <nav>
+      <ul class="nav_links">
+        <li><a href="index.html">Todas</a></li>
+        <li><a href="masvalorada.html">Más Valoradas</a></li>
+        <li><a href="peliculas.html">Películas</a></li>
+      </ul>
+    </nav>
+    <form id="searcher">
+      <input id="search" type="text" name="search" placeholder="Busca tu película favorita">
+      <button type="submit" name="button">
+        <i class="fas fa-search"></i>
+      </button>
+    </form>
+  </header>
+
+  <main id="survey-container">
+    <form id="survey">
+      <span id="id"></span>
+      <div class="input">
+        <label for="title" class="form-label">Título</label>
+        <input type="text" id="input-title" name="title">
+      </div>
+      <div class="input">
+        <label for="genre" class="form-label">Género</label>
+        <input type="text" id="input-genre" name="genre">
+      </div>
+      <div class="input">
+        <label for="date" class="form-label">Fecha de lanzamiento</label>
+        <input type="text" id="input-date" name="date">
+      </div>
+      <div class="input">
+        <label for="duration" class="form-label">Duración</label>
+        <input type="text" id="input-duration" name="duration">
+      </div>
+      <div class="input">
+        <label for="overview" class="form-label">Sinopsis</label>
+        <input type="text" id="input-overview" name="overview">
+      </div>
+      <div class="change">
+        <button class="survey-btn" id="send" type="submit">Enviar</button>
+        <button class="survey-btn" id="search-movie" type="button">Buscar</button>
+        <button class="survey-btn" id="edit" type="button">Editar</button>
+        <button class="survey-btn" id="delete" type="button">Eliminar</button>
+      </div>
+    </form>
+  </main>
+
+  <script src="./script/movies.js"></script>
+</body>
+
+</html>
